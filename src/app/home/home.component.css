@@ -1,0 +1,89 @@
+#customer-review .testimonial{
+    text-align: center;
+    padding: 85px 50px 45px 70px;
+    margin: 70px 15px 35px;
+    background: #f9f9f9;
+    box-shadow: 8px 4px 0 0 orange;
+    position: relative;
+}
+#customer-review .testimonial .pic{
+    width: 120px;
+    height: 120px;
+    border: 5px solid #f9f9f9;
+    margin: 0 auto;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+}
+#customer-review .testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+#customer-review .testimonial .description{
+    font-size: 15px;
+    color: #757575;
+    line-height: 27px;
+    margin-bottom: 20px;
+    position: relative;
+}
+#customer-review .testimonial .description:before{
+    content: "\f10d";
+    font-family: "FontAwesome";
+    font-size: 32px;
+    color: orange;
+    position: absolute;
+    top: -15px;
+    left: -35px;
+}
+#customer-review .testimonial .testimonial-profile{
+    position: relative;
+    margin: 20px 0 10px 0;
+}
+#customer-review .testimonial .testimonial-profile:after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: orange;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+}
+#customer-review .testimonial .title{
+    display: inline-block;
+    font-size: 18px;
+    color: orange;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+}
+#customer-review .testimonial .post{
+    display: inline-block;
+    font-size: 15px;
+    color: #757575;
+    text-transform: capitalize;
+}
+#customer-review .owl-theme .owl-controls{
+    margin-top: 10px;
+}
+#customer-review .owl-theme .owl-controls .owl-page span{
+    background: #5e5f5f;
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+}
+#customer-review .owl-theme #customer-review .owl-controls #customer-review .owl-page #customer-review .active span,
+#customer-review .owl-theme #customer-review .owl-controls.clickable #customer-review  #customer-review .owl-page:hover span{
+    background: orange;
+}
+#customer-review .owl-theme #customer-review .owl-controls #customer-review .owl-page #customer-review .active span{
+    width: 22px;
+    height: 12px;
+}
+.btn{
+    background-color: orange;
+    color: black;
+    width: 140px;
+    height: 40px;
+}
